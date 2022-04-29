@@ -1,7 +1,9 @@
-baseURL: "https://engw.com/"
+baseURL: "https://engworm.github.io/note/"
 title: ExampleSite
 paginate: 5
 theme: PaperMod
+canonifyurls: true
+publishDir: "docs"
 
 enableRobotsTXT: true
 buildDrafts: false
@@ -50,7 +52,7 @@ params:
 
   label:
     text: "engw note"
-    icon: /mylogo.png
+    icon: /mylogo.jpg
     iconHeight: 35
 
   # profile-mode
@@ -70,8 +72,8 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "こんにちは！ \U0001F44B"
-    Content: 数学や京都での生活について
+    Title: "アカデミアで過ごす最後の1年間" 
+    Content: 情報系大学院生によるTipsなど
 
   socialIcons:
     - name: twitter
@@ -79,7 +81,7 @@ params:
     - name: stackoverflow
       url: "https://stackoverflow.com"
     - name: github
-      url: "https://github.com/"
+      url: "https://github.com/engworm"
 
   analytics:
     google:

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://engworm.github.io/note/</loc>
+    <lastmod>2022-04-29T13:24:26+09:00</lastmod>
+  </url><url>
+    <loc>https://engworm.github.io/note/posts/</loc>
+    <lastmod>2022-04-29T13:24:26+09:00</lastmod>
+  </url><url>
+    <loc>https://engworm.github.io/note/posts/whoami/</loc>
+    <lastmod>2022-04-29T13:24:26+09:00</lastmod>
+  </url><url>
+    <loc>https://engworm.github.io/note/posts/test/</loc>
+    <lastmod>2022-04-29T13:04:01+09:00</lastmod>
+  </url><url>
+    <loc>https://engworm.github.io/note/categories/</loc>
+  </url><url>
+    <loc>https://engworm.github.io/note/tags/</loc>
+  </url>
+</urlset>
