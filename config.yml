@@ -2,7 +2,6 @@ baseURL: "https://engworm.github.io/note/"
 title: ExampleSite
 paginate: 5
 theme: PaperMod
-canonifyurls: true
 publishDir: "docs"
 
 enableRobotsTXT: true
@@ -53,7 +52,7 @@ params:
 
   label:
     text: "engw note"
-    icon: /mylogo.jpg
+    icon: mylogo.jpg
     iconHeight: 35
 
   # profile-mode
