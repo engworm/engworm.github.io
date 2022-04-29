@@ -50,7 +50,7 @@ params:
 
   label:
     text: "engw note"
-    icon: /apple-touch-icon.png
+    icon: /mylogo.png
     iconHeight: 35
 
   # profile-mode
