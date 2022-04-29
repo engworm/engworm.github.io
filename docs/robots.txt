@@ -1,3 +1,3 @@
 User-agent: *
 Disallow:
-Sitemap: https://engworm.github.io/note/sitemap.xml
+Sitemap: https://engworm.github.io/sitemap.xml
