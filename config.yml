@@ -49,7 +49,7 @@ params:
     safari_pinned_tab: "<link / abs url>"
 
   label:
-    text: "京都"
+    text: "engw note"
     icon: /apple-touch-icon.png
     iconHeight: 35
 
@@ -70,8 +70,8 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Hi there \U0001F44B"
-    Content: Welcome to my blog
+    Title: "こんにちは！ \U0001F44B"
+    Content: 数学や京都での生活について
 
   socialIcons:
     - name: twitter
