@@ -74,7 +74,7 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "アカデミアで過ごす最後の1年" 
-    Content: 数学や京都の過ごし方に関するTips
+    Content: 数学や京都での過ごし方に関するTips
 
   socialIcons:
     - name: twitter
