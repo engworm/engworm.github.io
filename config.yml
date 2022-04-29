@@ -1,4 +1,4 @@
-baseURL: "https://examplesite.com/"
+baseURL: "https://engw.com/"
 title: ExampleSite
 paginate: 5
 theme: PaperMod
@@ -49,7 +49,7 @@ params:
     safari_pinned_tab: "<link / abs url>"
 
   label:
-    text: "Home"
+    text: "京都"
     icon: /apple-touch-icon.png
     iconHeight: 35
 
