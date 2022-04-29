@@ -1,5 +1,5 @@
 baseURL: "https://engworm.github.io/"
-title: ExampleSite
+title: engwSite
 paginate: 5
 theme: PaperMod
 publishDir: "docs"
@@ -73,8 +73,8 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "アカデミアで過ごす最後の1年間" 
-    Content: 情報系大学院生によるTipsなど
+    Title: "アカデミアで過ごす最後の1年" 
+    Content: 数学や京都での生活
 
   socialIcons:
     - name: twitter
