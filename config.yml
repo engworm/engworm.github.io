@@ -1,4 +1,4 @@
-baseURL: "https://engworm.github.io/note/"
+baseURL: "https://engworm.github.io/"
 title: ExampleSite
 paginate: 5
 theme: PaperMod
