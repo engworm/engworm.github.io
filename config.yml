@@ -50,7 +50,7 @@ params:
 
   label:
     text: "engw note"
-    icon: /static/mylogo.png
+    icon: /mylogo.png
     iconHeight: 35
 
   # profile-mode
