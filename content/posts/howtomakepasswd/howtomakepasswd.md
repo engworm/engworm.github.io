@@ -14,4 +14,4 @@ draft: false
 
 ## 参考文献
 
-- 『入門Unix for OS X』(https://www.amazon.co.jp/%E5%85%A5%E9%96%80-Unix-OS-X-%E7%AC%AC5%E7%89%88/dp/4873116449)
+- [『入門Unix for OS X』](https://www.amazon.co.jp/%E5%85%A5%E9%96%80-Unix-OS-X-%E7%AC%AC5%E7%89%88/dp/4873116449)
