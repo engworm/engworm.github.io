@@ -57,7 +57,12 @@ $$
 \\(\overrightarrow{\tau}\\)を負方向に\\(\pi/2\\)回転させることで，外向き単位法線ベクトル\\(\overrightarrow{\nu}\\)を
 $$
 \overrightarrow{\nu} =
-\left(\frac{dy}{ds}, -\frac{dx}{ds}\right)
+\left(
+\begin{array}{c}
+\frac{dy}{ds} \\\\
+-\frac{dx}{ds}
+\end{array}
+\right)
 $$
 と具体的に書くことができました．
 
@@ -67,7 +72,12 @@ $$
 \begin{align}
 \int_{\partial\Omega}\overrightarrow{F}(x,y)\cdot \overrightarrow{\nu}ds
 &= \int_{\partial\Omega}
-\left( f_1, f_2 \right)
+\left(
+\begin{array}{c}
+f_1 \\\\
+f_2
+\end{array}
+\right)
 \cdot
 \left( \frac{dy}{ds}, -\frac{dx}{ds} \right)ds \\\\
 &= \int_{\partial\Omega}\left(f_1\frac{dy}{ds}-f_2\frac{dx}{ds}\right)ds \\\\
