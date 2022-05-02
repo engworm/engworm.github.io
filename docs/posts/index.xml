@@ -11,13 +11,13 @@
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Mon, 02 May 2022 14:02:43 +0900</lastBuildDate><atom:link href="https://engworm.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Gauss</title>
+      <title>Gaussの発散定理に関する備忘録</title>
       <link>https://engworm.github.io/posts/gauss/gauss/</link>
       <pubDate>Mon, 02 May 2022 14:02:43 +0900</pubDate>
       
       <guid>https://engworm.github.io/posts/gauss/gauss/</guid>
-      <description>Gaussの発散定理に関する備忘録 学部2年生で学習するGaussの発散定理は，様々な書き方の流儀があります． 初学者にとっては混乱しがちな箇所であり，最近見直す機会があったのでわかりやすくまとめておきたいと思います．
-嘘は書いていないつもりですが，ごまかしている箇所はあります， 講義ノートや本と比較して検証してみてください．
+      <description>はじめに 学部2年生で学習するGaussの発散定理は，様々な書き方の流儀があります． 初学者にとっては混乱しがちな箇所であり，最近見直す機会があったのでわかりやすくまとめておきたいと思います．
+嘘は書いていないつもりですが，ごまかしている箇所はあります． 講義ノートや本と比較して検証してみてください．
 （復習）Gaussの発散定理 まずは主張を書いておきましょう．
 $\Omega\subset \mathbb{R}^2$は有界領域， $\partial\Omega$は十分滑らかとする． このとき，$\overline{\Omega}$上で滑らかなベクトル値函数$\overrightarrow{F}(x,y)=\left(f_1(x,y), f_2(x,y)\right)$に対し， $$ \int_{\Omega}\mathrm{div}\overrightarrow{F}(x,y)dxdy = \int_{\partial\Omega}\overrightarrow{F}(x,y)\cdot \overrightarrow{\nu}ds $$ が成立する． 但し，$\overrightarrow{\nu}$は$\partial\Omega$上の外向き法線ベクトルであり， $ds$は$\partial\Omega$上の線素とする．
 まず，線素$ds$について説明しておきましょう． $s$は弧長パラメータと言って，ある地点を$s=0$として測った曲線の長さを表します， 線素$ds$とは$s$の微小変化量ということです． 従って，境界$\partial\Omega$は求長可能な曲線である必要があります．
