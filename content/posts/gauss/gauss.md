@@ -17,7 +17,7 @@ math: true
 
 まずは主張を書いておきましょう．
 
-\(\Omega\subset \mathbb{R}^2\)は有界領域，
+\\(\Omega\subset \mathbb{R}^2\\)は有界領域，
 $\partial\Omega$は十分滑らかとする．
 このとき，$\overline{\Omega}$上で滑らかなベクトル値函数$\overrightarrow{F}(x,y)=\left(f_1(x,y), f_2(x,y)\right)$に対し，
 $$
