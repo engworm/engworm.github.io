@@ -46,23 +46,13 @@ $$
 したがって，点\\((x,y)\\)における単位接線ベクトル\\(\overrightarrow{\tau}\\)は[^2]
 $$
 \overrightarrow{\tau} =
-\left(
-\begin{array}{c}
-\frac{dx}{ds} \\
-\frac{dy}{ds}
-\end{array}
-\right)
+\left( \frac{dx}{ds}, \frac{dy}{ds} \right)
 $$
 と表すことができます．
 \\(\overrightarrow{\tau}\\)を負方向に\\(\pi/2\\)回転させることで，外向き単位法線ベクトル\\(\overrightarrow{\nu}\\)を
 $$
 \overrightarrow{\nu} =
-\left(
-\begin{array}{c}
-\frac{dy}{ds} \\
--\frac{dx}{ds}
-\end{array}
-\right)
+\left(\frac{dy}{ds}, -\frac{dx}{ds}\right)
 $$
 と具体的に書くことができました．
 
@@ -72,19 +62,9 @@ $$
 \begin{aligned}
 \int_{\partial\Omega}\overrightarrow{F}(x,y)\cdot \overrightarrow{\nu}ds
 &= \int_{\partial\Omega}
-\left(
-\begin{array}{c}
-f_1 \\
-f_2
-\end{array}
-\right)
+\left( f_1, f_2 \right)
 \cdot
-\left(
-\begin{array}{c}
-\frac{dy}{ds} \\
--\frac{dx}{ds}
-\end{array}
-\right)ds \\
+\left( \frac{dy}{ds}, -\frac{dx}{ds} \right)ds \\
 &= \int_{\partial\Omega}\left(f_1\frac{dy}{ds}-f_2\frac{dx}{ds}\right)ds \\
 &= \int_{\partial\Omega}f_1dy - f_2dx
 \end{aligned}
