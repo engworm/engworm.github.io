@@ -79,7 +79,12 @@ f_2
 \end{array}
 \right)
 \cdot
-\left( \frac{dy}{ds}, -\frac{dx}{ds} \right)ds \\\\
+\left(
+\begin{array}{c}
+\frac{dy}{ds} \\\\
+-\frac{dx}{ds}
+\end{array}
+\right)ds \\\\
 &= \int_{\partial\Omega}\left(f_1\frac{dy}{ds}-f_2\frac{dx}{ds}\right)ds \\\\
 &= \int_{\partial\Omega}f_1dy - f_2dx
 \end{align}
