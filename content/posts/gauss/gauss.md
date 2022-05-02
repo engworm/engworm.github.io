@@ -1,7 +1,7 @@
 ---
 title: "Gauss"
 date: 2022-05-02T14:02:43+09:00
-draft: true
+draft: false
 ---
 
 # Gaussの発散定理に関する備忘録
