@@ -9,7 +9,16 @@
       <link>https://engworm.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 02 May 2022 14:02:43 +0900</lastBuildDate><atom:link href="https://engworm.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 02 May 2022 15:22:22 +0900</lastBuildDate><atom:link href="https://engworm.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>HugoでGithub Pagesサイトを作る</title>
+      <link>https://engworm.github.io/posts/hugo/hugo/</link>
+      <pubDate>Mon, 02 May 2022 15:22:22 +0900</pubDate>
+      
+      <guid>https://engworm.github.io/posts/hugo/hugo/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Gaussの発散定理に関する備忘録</title>
       <link>https://engworm.github.io/posts/gauss/gauss/</link>
