@@ -46,7 +46,12 @@ $$
 したがって，点\\((x,y)\\)における単位接線ベクトル\\(\overrightarrow{\tau}\\)は[^2]
 $$
 \overrightarrow{\tau} =
-\left( \frac{dx}{ds}, \frac{dy}{ds} \right)
+\left(
+\begin{array}{c}
+\frac{dx}{ds} \\\\
+\frac{dy}{ds}
+\end{array}
+\right)
 $$
 と表すことができます．
 \\(\overrightarrow{\tau}\\)を負方向に\\(\pi/2\\)回転させることで，外向き単位法線ベクトル\\(\overrightarrow{\nu}\\)を
@@ -59,15 +64,15 @@ $$
 Gauss発散定理の右辺に代入しましょう．
 すると，
 $$
-\begin{eqnarray}
+\begin{align}
 \int_{\partial\Omega}\overrightarrow{F}(x,y)\cdot \overrightarrow{\nu}ds
 &= \int_{\partial\Omega}
 \left( f_1, f_2 \right)
 \cdot
-\left( \frac{dy}{ds}, -\frac{dx}{ds} \right)ds \\
-&= \int_{\partial\Omega}\left(f_1\frac{dy}{ds}-f_2\frac{dx}{ds}\right)ds \\
+\left( \frac{dy}{ds}, -\frac{dx}{ds} \right)ds \\\\
+&= \int_{\partial\Omega}\left(f_1\frac{dy}{ds}-f_2\frac{dx}{ds}\right)ds \\\\
 &= \int_{\partial\Omega}f_1dy - f_2dx
-\end{eqnarray}
+\end{align}
 $$
 となります．
 これで，線素を用いた線積分だった右辺がStieltjes積分になりましたね．
