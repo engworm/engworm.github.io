@@ -25,13 +25,12 @@ $$
 = \int_{\partial\Omega}\overrightarrow{F}(x,y)\cdot \overrightarrow{\nu}ds
 $$
 が成立する．
-但し，\\(\overrightarrow{\nu}\\)は\\(\partial\Omega\\)上の外向き法線ベクトルであり，
+但し，\\(\overrightarrow{\nu}\\)は\\(\partial\Omega\\)上の外向き単位法線ベクトルであり，
 \\(ds\\)は\\(\partial\Omega\\)上の線素とする．
 
 線素\\(ds\\)について説明しておきましょう．
 \\(s\\)は弧長パラメータと言って，ある地点を\\(s=0\\)として測った曲線の長さを表します，
 線素\\(ds\\)とは\\(s\\)の微小変化量ということです．
-従って，境界\\(\partial\Omega\\)は求長可能な曲線である必要があります．
 
 それから，式を読む際の注意点です．
 \\(\overrightarrow{F}(x,y)\\)のことを\\(F(x)\\)としたり，
@@ -55,7 +54,7 @@ $$
 \right)
 $$
 と表すことができます．
-\\(\overrightarrow{\tau}\\)を負方向に\\(\pi/2\\)回転させることで，外向き法線ベクトル\\(\overrightarrow{\nu}\\)を
+\\(\overrightarrow{\tau}\\)を負方向に\\(\pi/2\\)回転させることで，外向き単位法線ベクトル\\(\overrightarrow{\nu}\\)を
 $$
 \overrightarrow{\nu} =
 \left(
