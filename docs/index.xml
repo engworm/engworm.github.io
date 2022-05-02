@@ -12,22 +12,22 @@
     <lastBuildDate>Fri, 29 Apr 2022 13:24:26 +0900</lastBuildDate><atom:link href="https://engworm.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>自己紹介</title>
-      <link>https://engworm.github.io/posts/whoami/</link>
+      <link>https://engworm.github.io/posts/whoami/whoami/</link>
       <pubDate>Fri, 29 Apr 2022 13:24:26 +0900</pubDate>
       
-      <guid>https://engworm.github.io/posts/whoami/</guid>
+      <guid>https://engworm.github.io/posts/whoami/whoami/</guid>
       <description>はじめまして． engwと申します．
-徳島県出身で，阿南市にある徳島県立富岡東高等学校に通っていました． 高校卒業後は1年間東京で浪人し，現在は京都大学院修士課程で解析学と数値計算のお勉強をしています．
-数学やプログラミングについてだったり，京都でおすすめの楽しい場所だったり，いろいろ書いてみます． 理系向けの文章だけでなく，一般向けの文章も書くので，みなさんに興味をもってもらえたらいいなと思っています． 2週間に1回くらいは更新したいです．
+徳島県出身で，阿南市にある徳島県立富岡東高等学校に通っていました． 高校卒業後は1年間東京で浪人し，京都大学理学部へ進学しました． 現在は同大学院修士課程で解析学と数値計算のお勉強をしています．
+数学やプログラミングについてだったり，京都でおすすめの楽しい場所だったり，いろいろ書いてみます． みなさんに興味をもってもらえたらいいなと思っています． 2週間に1回くらいは更新したいです．
 よろしくお願いいたします．</description>
     </item>
     
     <item>
       <title>Test</title>
-      <link>https://engworm.github.io/posts/test/</link>
+      <link>https://engworm.github.io/posts/test/test/</link>
       <pubDate>Fri, 29 Apr 2022 13:04:01 +0900</pubDate>
       
-      <guid>https://engworm.github.io/posts/test/</guid>
+      <guid>https://engworm.github.io/posts/test/test/</guid>
       <description>Hello, world!</description>
     </item>
     
