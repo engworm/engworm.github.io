@@ -59,7 +59,7 @@ $$
 Gauss発散定理の右辺に代入しましょう．
 すると，
 $$
-\begin{aligned}
+\begin{align}
 \int_{\partial\Omega}\overrightarrow{F}(x,y)\cdot \overrightarrow{\nu}ds
 &= \int_{\partial\Omega}
 \left( f_1, f_2 \right)
@@ -67,7 +67,7 @@ $$
 \left( \frac{dy}{ds}, -\frac{dx}{ds} \right)ds \\
 &= \int_{\partial\Omega}\left(f_1\frac{dy}{ds}-f_2\frac{dx}{ds}\right)ds \\
 &= \int_{\partial\Omega}f_1dy - f_2dx
-\end{aligned}
+\end{align}
 $$
 となります．
 これで，線素を用いた線積分だった右辺がStieltjes積分になりましたね．

@@ -42,7 +42,7 @@
 線素\(ds\)について説明しておきましょう． \(s\)は弧長パラメータと言って，ある地点を\(s=0\)として測った曲線の長さを表します， 線素\(ds\)とは\(s\)の微小変化量ということです．
 それから，式を読む際の注意点です． \(\overrightarrow{F}(x,y)\)のことを\(F(x)\)としたり， \(dxdy\)のことを\(dx\)と書くことがあります． 内積\(\cdot\)が省略されることもあります． 書き方の流儀が問題になると申し上げたのはここで， ベクトル解析の分野では省略されている箇所を補って読む必要が多いのです． 複雑な箇所は慣れるまで省略せずに書くのが良さそうですね．1
 Stieljtes積分の形にする 境界\(\partial\Omega\)上の点\((x,y)\)は弧長パラメータ\(s\)を用いて\((x(s),y(s))\)と表すことができます． したがって，点\((x,y)\)における単位接線ベクトル\(\overrightarrow{\tau}\)は2 $$ \overrightarrow{\tau} = \left( \frac{dx}{ds}, \frac{dy}{ds} \right) $$ と表すことができます． \(\overrightarrow{\tau}\)を負方向に\(\pi/2\)回転させることで，外向き単位法線ベクトル\(\overrightarrow{\nu}\)を $$ \overrightarrow{\nu} = \left(\frac{dy}{ds}, -\frac{dx}{ds}\right) $$ と具体的に書くことができました．
-Gauss発散定理の右辺に代入しましょう． すると， $$ \begin{aligned} \int_{\partial\Omega}\overrightarrow{F}(x,y)\cdot \overrightarrow{\nu}ds &amp;amp;= \int_{\partial\Omega} \left( f_1, f_2 \right) \cdot \left( \frac{dy}{ds}, -\frac{dx}{ds} \right)ds \ &amp;amp;= \int_{\partial\Omega}\left(f_1\frac{dy}{ds}-f_2\frac{dx}{ds}\right)ds \ &amp;amp;= \int_{\partial\Omega}f_1dy - f_2dx \end{aligned} $$ となります． これで，線素を用いた線積分だった右辺がStieltjes積分になりましたね．</description>
+Gauss発散定理の右辺に代入しましょう． すると， $$ \begin{align} \int_{\partial\Omega}\overrightarrow{F}(x,y)\cdot \overrightarrow{\nu}ds &amp;amp;= \int_{\partial\Omega} \left( f_1, f_2 \right) \cdot \left( \frac{dy}{ds}, -\frac{dx}{ds} \right)ds \ &amp;amp;= \int_{\partial\Omega}\left(f_1\frac{dy}{ds}-f_2\frac{dx}{ds}\right)ds \ &amp;amp;= \int_{\partial\Omega}f_1dy - f_2dx \end{align} $$ となります． これで，線素を用いた線積分だった右辺がStieltjes積分になりましたね．</description>
     </item>
     
     <item>
