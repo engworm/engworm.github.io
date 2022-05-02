@@ -9,14 +9,23 @@
       <link>https://engworm.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 02 May 2022 15:22:22 +0900</lastBuildDate><atom:link href="https://engworm.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 02 May 2022 15:49:19 +0900</lastBuildDate><atom:link href="https://engworm.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>HugoとGithub Pagesで自分のウェブサイトを作る</title>
+      <title>Fidjob</title>
+      <link>https://engworm.github.io/posts/findjob/fidjob/</link>
+      <pubDate>Mon, 02 May 2022 15:49:19 +0900</pubDate>
+      
+      <guid>https://engworm.github.io/posts/findjob/fidjob/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>HugoとGithub Pagesで自分のウェブページを作る</title>
       <link>https://engworm.github.io/posts/hugo/hugo/</link>
       <pubDate>Mon, 02 May 2022 15:22:22 +0900</pubDate>
       
       <guid>https://engworm.github.io/posts/hugo/hugo/</guid>
-      <description>動機 社会人になった時のことを考えると</description>
+      <description>動機  アウトプットを増やす gitの訓練  なぜHugoにしたのか markdownで書ける</description>
     </item>
     
     <item>
@@ -25,7 +34,8 @@
       <pubDate>Mon, 02 May 2022 14:15:28 +0900</pubDate>
       
       <guid>https://engworm.github.io/posts/howtomakepasswd/howtomakepasswd/</guid>
-      <description>現状とパスワードレス認証 ゼロトラスト Tips: パスワードの作り方 </description>
+      <description>現状 パスワードの使い回しは問題だがやらざるを得ないという現状
+ゼロラスト Tips: パスワードの作り方 参考文献  『入門Unix for OS X』(https://www.amazon.co.jp/%E5%85%A5%E9%96%80-Unix-OS-X-%E7%AC%AC5%E7%89%88/dp/4873116449)  </description>
     </item>
     
     <item>
