@@ -29,6 +29,16 @@
     </item>
     
     <item>
+      <title>HugoとGithub Pagesで自分のウェブページを作る</title>
+      <link>https://engworm.github.io/posts/hugo/hugo/</link>
+      <pubDate>Mon, 02 May 2022 15:22:22 +0900</pubDate>
+      
+      <guid>https://engworm.github.io/posts/hugo/hugo/</guid>
+      <description>下書きです． Webページができたてホヤホヤでコンテンツ量が寂しいので公開しています．
+動機  アウトプットを増やす gitの訓練  なぜHugoにしたのか markdownで書ける</description>
+    </item>
+    
+    <item>
       <title>Gaussの発散定理に関する備忘録</title>
       <link>https://engworm.github.io/posts/gauss/gauss/</link>
       <pubDate>Mon, 02 May 2022 14:02:43 +0900</pubDate>
