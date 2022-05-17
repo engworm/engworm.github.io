@@ -19,6 +19,7 @@ double *data;
 data = new double[10];
 
 double * &x = data;
+
 ```
 
 dataはdoubleを指すポインタ型で，doubleを10個格納できる配列の先頭を指しています．
@@ -30,23 +31,27 @@ cout << *(data+1) << endl;  // 4.6
 
 x[1] = 2.;
 cout << data[1] << endl;    // 2
+
 ```
 
 xはポインタであることを意識するために，C likeに書いた上段とC++ likeに書いた下段を比べてみましょう．
-1段目のコードではxのポインタに1（8Byte分）を足したものを逆参照し，値を代入しています．
-いずれにせよポインタxを逆参照することで元のdataが書き換えられていることがわかります．
+上段のコードではxのポインタに1（8Byte分）を足したものを逆参照し，値を代入しています．
+下段はそれを簡略化して書いただけです．
+いずれにせよ，ポインタxを逆参照することで元のdataが書き換えられていることがわかります．
 
 ## 参照使い方の例
 
 参照型によってどんなことができるのでしょう．
 具体的な例でみていきましょう．
 
-doubleをN個格納する配列arrに，以下のような操作を行う関数show, plusoneを与えます．
+doubleをN個格納する配列dataに，以下のような操作を行う関数show, plusoneを与えます．
 
-- showはarrを画面に改行しながら表示する
-- plusoneはarr全てに1を足して上書きする
+- showはdataの要素を改行しながら表示する
+- plusoneはdataの要素全てに1を足して上書きする
 
 ```cpp
+#include <iostream>
+
 void show(double * arr) { 
   for (int i = 0; i < N; ++i) {
     std::cout << arr[i] << std::endl;
@@ -60,11 +65,28 @@ void plusone(double * &arr) {
   }
   return;
 }
+
+int main() {
+  double *data;
+  data = new double[2];
+
+  // dataは適当に初期化する（各自）
+  data[0] = 1.3;
+  data[1] = 2.9;
+
+  show(data); // 1.3, 2.9
+
+  plusone(data);
+  show(data); // 2.3, 3.9;
+
+  return 0;
+}
+
 ```
 
 showではポインタ型を引数として渡しているのでポインタ渡し，
 plusoneでは（ポインタの）参照型を引数として渡しているので参照渡しを夫々しています．
-両者はとても似ていますが，
+下段では，doubleを指すポインタの別名（参照）がarrとのことなので，arrを触ると元の
 
 ## 中級編に向かって
 
