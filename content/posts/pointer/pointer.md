@@ -31,27 +31,29 @@ x[1] = 2.;
 cout << data[1] << endl;    // 2
 ```
 
-理解を深めるために，C likeに書いた上段とC++ likeに書いた下段を比べてみましょう．
+xはポインタであることを意識するために，C likeに書いた上段とC++ likeに書いた下段を比べてみましょう．
 1段目のコードではxのポインタに1（8Byte分）を足したものを逆参照し，値を代入しています．
 ここでいう逆参照とは，日常用語としての逆参照のことです．
-2段目のコードは略した書き方で，このように書くこともできます．
+いずれにせよ，ポインタxを逆参照することで元のdataが書き換えられていることがわかります．
 
 ## 参照の威力（値渡しと参照渡し）
 
 参照型によってどんなことができるのでしょう．
 
+doubleをN個格納する配列valに何かしらの操作を行う関数f, g, hを次のように与えます．
+
 ```cpp
-double f(const double * const arr) { 
-  return arr[1];
+void f(const double * const arr) { 
+  std::cout << arr[1] << std::endl;
 }
 
-double g(const double * const &arr) { // 値だけ使いたいなら二度手間
-  return arr[1];
+double g(const double * const &arr) { 
+  std::cout << arr[1] << std::endl;
 }
 
 double h(double * const &arr) { 
+  std::cout << arr[1] << std::endl;
   arr[1] = 5.;  
-  return arr[1];
 }
 ```
 
@@ -60,3 +62,4 @@ double h(double * const &arr) {
 ## 参考文献
 
 [C++プログラミング入門](https://www.amazon.co.jp/C-%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0%E5%85%A5%E9%96%80-%E3%82%B0%E3%83%AC%E3%82%B4%E3%83%AA%E3%83%BC-%E3%82%B5%E3%83%86%E3%82%A3%E3%82%A2/dp/4873110637)
+[図解：constとポインタと参照](https://qiita.com/yohhoy/items/feadbe1a245caadc44f7)
