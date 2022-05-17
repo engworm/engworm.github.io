@@ -37,20 +37,23 @@ xはポインタであることを意識するために，C likeに書いた上�
 ここでいう逆参照とは，日常用語としての逆参照のことです．
 いずれにせよ，ポインタxを逆参照することで元のdataが書き換えられていることがわかります．
 
-## 参照の威力（値渡しと参照渡し）
+## 参照の威力（参照渡し）
 
 参照型によってどんなことができるのでしょう．
+具体的な例でみていきましょう．
 
-doubleをN個格納する配列valに何かしらの操作を行う関数f, gを次のように与えます．
+doubleをN個格納する配列valに何かしらの操作を行う関数show, plusを次のように与えます．
 
 - showはarr\[i\]を画面に表示する
-- plusはarr全てに1を足した配列を作る
+- plusはarr全てに1を足した配列をarrに上書きする
 
-あまり関係ないので，constは落として読んでください．[^2]
+あまり関係ないので，constは落として読んでもらっても大丈夫です．[^2]
 
 ```cpp
-void show(const double * const arr) { 
-  std::cout << arr[1] << std::endl;
+void show(const i, const double * const arr) { 
+  for (int i = 0; i < N; ++i) {
+    std::cout << arr[i] << std::endl;
+  }
 }
 
 double plus(double * const &arr) { 
@@ -61,7 +64,7 @@ double plus(double * const &arr) {
 
 [^1]:参照は別名なのだと思うと，参照型が必ず初期化しなければならない理由がわかりますね．存在しないものに名前をつけることはできませんから．
 
-[^2]:不必要に配列を書き換えることがないようにconstを適宜つけてあります．constがどこを修飾するかというのは，参考文献[図解：constとポインタと参照](https://qiita.com/yohhoy/items/feadbe1a245caadc44f7)をあたってください．
+[^2]:安全のためにconstを適宜つけなければなりません．constがどこを修飾するかというのは，参考文献[図解：constとポインタと参照](https://qiita.com/yohhoy/items/feadbe1a245caadc44f7)をあたってください．
 
 ## 参考文献
 
