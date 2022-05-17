@@ -11,17 +11,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Fri, 06 May 2022 19:05:57 +0900</lastBuildDate><atom:link href="https://engworm.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>&#34;非constへの参照の初期値は左辺値である必要があります&#34;について</title>
+      <title>参照でできること（初級編）</title>
       <link>https://engworm.github.io/posts/pointer/pointer/</link>
       <pubDate>Fri, 06 May 2022 19:05:57 +0900</pubDate>
       
       <guid>https://engworm.github.io/posts/pointer/pointer/</guid>
-      <description>C++の学習をしていると，「参照ってなんだ？」となります． そこで，まずは参照でできることをサクッとみてみましょう．
-参照とは 参照というのはピンとしない名前だなって思います． わかりやすく説明するなら，参照とはエイリアス（別名）のことです． 下のコードをみてください．
+      <description>参照とは 下書き中． C++では参照型がはじめの難関だと思います． 私はCからC++に入ったので，ポインタ型と参照型で混乱したことがあります．
+わかりやすく説明するなら，参照とはエイリアス（別名）のことです． 下のコードをみてください．
 double *data; data = new double[10];  double *&amp;amp;x = data; dataはdoubleを指すポインタ型で，doubleを10個格納できる配列の先頭を指しています． xはdoubleを指すポインタの別名（参照）というわけです． 次のコードをみると，
 *(x+1) = 4.6; cout &amp;lt;&amp;lt; *(data+1) &amp;lt;&amp;lt; endl; // 4.6  x[1] = 2.; cout &amp;lt;&amp;lt; data[1] &amp;lt;&amp;lt; endl; // 2 1段目のコードではxのポインタに1（8Byte分）を足したものを逆参照し，値を代入しています． ここでいう逆参照とは，日常用語としての逆参照のことです． 2段目のコードは略した書き方で，このように書くこともできます．
 さて，参照は別名なのだと思うと，参照型が必ず初期化しなければならない理由がわかりますね． 存在しないものに名前をつけることはできませんから．
-参考文献 </description>
+参考文献 C++プログラミング入門</description>
     </item>
     
     <item>
