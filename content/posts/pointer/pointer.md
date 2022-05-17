@@ -8,9 +8,10 @@ draft: false
 
 下書き中．
 C++では参照型がはじめの難関だと思います．
-私はCからC++に入ったので，ポインタ型と参照型で混乱したことがあります．
+私はCからC++に入ったのでポインタには慣れていましたが，参照型はイマイチよくわかっていませんでした．
+配列を題材に，参照について試行錯誤してみようと思います．
 
-わかりやすく説明するなら，参照とはエイリアス（別名）[^1]のことです．
+さて，わかりやすく説明するなら，参照とはエイリアス（別名）[^1]のことです．
 下のコードをみてください．
 
 ```cpp
@@ -40,18 +41,19 @@ xはポインタであることを意識するために，C likeに書いた上�
 
 参照型によってどんなことができるのでしょう．
 
-doubleをN個格納する配列valに何かしらの操作を行う関数f, g, hを次のように与えます．
+doubleをN個格納する配列valに何かしらの操作を行う関数f, gを次のように与えます．
+
+- showはarr\[i\]を画面に表示する
+- plusはarr全てに1を足した配列を作る
+
+あまり関係ないので，constは落として読んでください．[^2]
 
 ```cpp
-void f(const double * const arr) { 
+void show(const double * const arr) { 
   std::cout << arr[1] << std::endl;
 }
 
-double g(const double * const &arr) { 
-  std::cout << arr[1] << std::endl;
-}
-
-double h(double * const &arr) { 
+double plus(double * const &arr) { 
   std::cout << arr[1] << std::endl;
   arr[1] = 5.;  
 }
@@ -59,7 +61,10 @@ double h(double * const &arr) {
 
 [^1]:参照は別名なのだと思うと，参照型が必ず初期化しなければならない理由がわかりますね．存在しないものに名前をつけることはできませんから．
 
+[^2]:不必要に配列を書き換えることがないようにconstを適宜つけてあります．constがどこを修飾するかというのは，参考文献[図解：constとポインタと参照](https://qiita.com/yohhoy/items/feadbe1a245caadc44f7)をあたってください．
+
 ## 参考文献
 
 [C++プログラミング入門](https://www.amazon.co.jp/C-%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0%E5%85%A5%E9%96%80-%E3%82%B0%E3%83%AC%E3%82%B4%E3%83%AA%E3%83%BC-%E3%82%B5%E3%83%86%E3%82%A3%E3%82%A2/dp/4873110637)
+
 [図解：constとポインタと参照](https://qiita.com/yohhoy/items/feadbe1a245caadc44f7)
