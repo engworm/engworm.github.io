@@ -96,7 +96,7 @@ plusoneでは（ポインタの）参照型を引数として渡しているの�
 [C++プログラミング入門](https://www.amazon.co.jp/C-%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0%E5%85%A5%E9%96%80-%E3%82%B0%E3%83%AC%E3%82%B4%E3%83%AA%E3%83%BC-%E3%82%B5%E3%83%86%E3%82%A3%E3%82%A2/dp/4873110637)
 では，
 
->> いちいち逆参照しなくて済むように参照型が導入されたわけではない
+>> しかし，参照は入力の手間を省くためにC++に導入されたのではありません。C++では、抽象化が行われる関係上、ユーザに関数が呼び出されていることを明示的に知らせずに関数が起動される必要があるために、参照が導入されたのです。
 
 と書かれています．
 最近なんとなくわかってきたような気はしますが，きちんと言語化できるレベルには達していません．
@@ -120,9 +120,11 @@ data1もdata2も，double型を10個格納できる配列の先頭を指すア�
 
 それからshowとplusoneについても補足しておきます．
 これらには，安全のためconst修飾を下に示すように適切に付けなければなりません．
+nullptrチェックも必要です．
 
 ```cpp
 void show(const double * const arr) { 
+  if (arr == nullptr) return;
   for (int i = 0; i < N; ++i) {
     std::cout << arr[i] << std::endl;
   }
@@ -130,6 +132,7 @@ void show(const double * const arr) {
 }
 
 void plusone(double * const &arr) { 
+  if (arr == nullptr) return;
   for (int i = 0; i < N; ++i) {
     arr[i] += 1.;
   }
