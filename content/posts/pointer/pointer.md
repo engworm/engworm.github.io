@@ -64,7 +64,7 @@ void plusone(double * &arr) {
 }
 
 int main() {
-  double *data;
+  double *data = nullptr;
   data = new double[2];
 
   // dataは適当に初期化する
