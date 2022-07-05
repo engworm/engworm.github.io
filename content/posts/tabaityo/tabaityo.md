@@ -78,7 +78,7 @@ int main() {
 
   std::cout << std::showpoint;
   std::cout << std::setprecision(50)
-             << PI << std::endl;
+             << pi << std::endl;
 
   return 0;
 }
