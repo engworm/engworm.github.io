@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>engwSite</title>
+    <title>Hello UnderWorld!</title>
     <link>https://engworm.github.io/</link>
-    <description>Recent content on engwSite</description>
+    <description>Recent content on Hello UnderWorld!</description>
     <image>
       <url>https://engworm.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://engworm.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
@@ -11,19 +11,6 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Wed, 27 Jul 2022 14:52:13 +0900</lastBuildDate><atom:link href="https://engworm.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>アメリカに行きたい</title>
-      <link>https://engworm.github.io/posts/us/</link>
-      <pubDate>Wed, 27 Jul 2022 14:52:13 +0900</pubDate>
-      
-      <guid>https://engworm.github.io/posts/us/</guid>
-      <description>ボスに「ひまだよね？」と言われて別の仕事を任されてしまい、ただいま絶賛残業をしています。 思いつきで仕事させられるのはいい気分じゃないですね。
-アメリカに行きたい さて、話は急に変わって、アメリカに行きたいなって思っています。 必要な資金の半分近くまでお金を貯めることができたので、いよいよ現実味を帯びてきました。 辛くてしんどい学部生のテスト採点頑張ってよかったです。
-僕は、学生時代に挑戦したことが今後自分の実現できることになるのだと思っています。 修論発表後の2月下旬から3月中旬の間、1週間くらいバックパッカーしようと思いますので海外滞在経験のある方相談に乗ってください！ ニューヨーク、シリコンバレー、オーランドのうちのどこかに行くつもりです。
-こういうふうに思うようになったきっかけは学部2年生の夏の出会いでした。 その方は当時京大病院で勤務されていた女性医師で、入院したときにお世話になりました。 学生時代単身でインドに渡り、なんと1ヶ月間バックパッカーされたそうです。 曰く、「学生時代の時間あるときに、ものは試しと思ってやってごらんよ」とのことです。 場所としてアメリカを選んだのは、エンジニアとして将来アメリカに挑戦してみたいと思っているからです。
-ということでさっさとこの仕事を終わらせて、早く修論のテーマを決めたいと思います。 メンタルが逝くと忙しいと言って現実逃避しだすのは僕の悪い癖です。 それでは！</description>
-    </item>
-    
     <item>
       <title>はじめての多倍長計算</title>
       <link>https://engworm.github.io/posts/tabaityo/tabaityo/</link>
@@ -70,15 +57,14 @@ Gauss発散定理の右辺に代入すると， $$ \begin{align} \int_{\partial\
     </item>
     
     <item>
-      <title>自己紹介</title>
+      <title>はじめまして</title>
       <link>https://engworm.github.io/posts/whoami/whoami/</link>
       <pubDate>Fri, 29 Apr 2022 13:24:26 +0900</pubDate>
       
       <guid>https://engworm.github.io/posts/whoami/whoami/</guid>
-      <description>はじめまして． engwと申します．
-徳島県出身で，阿南市にある徳島県立富岡東高等学校に通っていました． 高校卒業後は1年間東京で浪人し，京都大学理学部へ進学しました． 現在は修士課程で解析学と数値計算のお勉強をしています．
-数学やプログラミングについてだったり，京都でおすすめの楽しい場所だったり，いろいろ書いてみます． 何かでみなさんの参考になればいいなと思っています． 最低でも1ヶ月に1回くらいは更新したいです．
-よろしくお願いいたします．</description>
+      <description>こんにちは．
+高校卒業後は1年間東京で浪人し，京都大学理学部へ進学しました． 現在は修士課程で解析学と数値計算のお勉強をしています．
+数学やプログラミングについてだったり，京都でおすすめの楽しい場所だったり，いろいろ書いてみます． 何かでみなさんの参考になればいいなと思っています．</description>
     </item>
     
     <item>

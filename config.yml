@@ -1,5 +1,5 @@
 baseURL: "https://engworm.github.io/"
-title: engwSite
+title: Hello UnderWorld!
 paginate: 5
 theme: PaperMod
 publishDir: "docs"
@@ -73,8 +73,8 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "アカデミアで過ごす最後の1年" 
-    Content: よく食べてよく寝てよく遊ぼう！
+    Title: "Hello UnderWorld!" 
+    Content: 数学やC++のメモなど
 
   socialIcons:
     - name: twitter
