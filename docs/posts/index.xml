@@ -19,7 +19,7 @@
       <guid>https://engworm.github.io/posts/tabaityo/tabaityo/</guid>
       <description>多倍長計算とは 私の所属する数値計算の研究室では，ことあるごとに「計算環境はパラメータの一つに過ぎない」と言われて育ちます．
 計算環境として代表的なのは間違いなく倍精度環境でしょう． これは，一般的に不動小数点を扱う環境であり，10進法で約15桁の有効桁数を持ちます． 多くの場面で使われていますね．
-一方，多倍長環境は倍精度環境以上の有効桁数をもち，（計算時間と引き換えに）50桁や100桁精度の計算が可能になります． 今日は先程の格言を思い出しながら，C++/boostを用いて多倍長計算の世界を覗いてみましょう．
+一方，多倍長環境は倍精度環境以上の有効桁数をもち，（計算時間と引き換えに）50桁や100桁精度の計算が可能になります． 今日は先程の格言を思い出しながら，C++/boostを用いて多倍長計算をやってみましょう．
 double型から多倍長へのキャスト double型から多倍長への暗黙のキャストは許されていますが，非常に注意しなければなりません． 下のコードをみてみましょう． 円周率を50桁表示させています．1
 #include &amp;lt;iostream&amp;gt; #include &amp;lt;iomanip&amp;gt; #include &amp;lt;cmath&amp;gt; #include &amp;lt;boost/multiprecision/cpp_dec_float.hpp&amp;gt; using namespace boost::multiprecision; constexpr int d = std::numeric_limits&amp;lt;double&amp;gt;::digits10; constexpr int dd = std::numeric_limits&amp;lt;cpp_dec_float_100&amp;gt;::digits10; int main() { cpp_dec_float_100 pi = M_PI; std::cout &amp;lt;&amp;lt; showpoint; std::cout &amp;lt;&amp;lt; std::setprecision(50) &amp;lt;&amp;lt; pi &amp;lt;&amp;lt; std::endl; return 0; } 3.1415926535897931159979634685441851615905761718750 ん？ 気づきましたでしょうか． 暗黒通信団 円周率1,000,000桁表 と比較すると，この円周率の17桁目以降はデタラメな値になっているのです！！2
 正しくは下のようなコードになります．
