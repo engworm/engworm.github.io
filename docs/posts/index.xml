@@ -10,7 +10,17 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 27 Jul 2022 14:52:13 +0900</lastBuildDate><atom:link href="https://engworm.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 03 Aug 2024 21:45:28 +0900</lastBuildDate><atom:link href="https://engworm.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>RSA暗号に頻出する公開指数e=65537</title>
+      <link>https://engworm.github.io/posts/rsa/rsa_65537/</link>
+      <pubDate>Sat, 03 Aug 2024 21:45:28 +0900</pubDate>
+      
+      <guid>https://engworm.github.io/posts/rsa/rsa_65537/</guid>
+      <description>公開指数 65537 公開鍵指数として65537が選ばれる理由としては，次の2つの理由があります．
+ビット長が短くハミング重みが小さいので，署名検証を高速に実行できる 鍵生成が比較的容易である </description>
+    </item>
+    
     <item>
       <title>はじめての多倍長計算</title>
       <link>https://engworm.github.io/posts/tabaityo/tabaityo/</link>
